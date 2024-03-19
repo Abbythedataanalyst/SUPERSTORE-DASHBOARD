@@ -21,10 +21,30 @@ In the initial data-cleaning phase, we performed the following tasks;
 - Handling inconsistent values
 - Data cleaning and formatting\
 
-### Expository Data Analysis(EDA)
-EDA involved exploring the sales data to answer key questions,such as;
+### Expository Data Analysis(EDA)- Excel
+EDA involved exploring the sales data to answer key questions, such as;
 - The highest and lowest sales
 - The number of orders
 - Total sales for the Technology category
 
+
+
+### Expository Data Analysis(EDA)- SQL
+EDA involved exploring the sales data to answer key questions, such as;
+- total count of orders.
+-  total profit by Category ordered from highest to lowest profit.
+
+
 ### Data Analysis
+```SQL
+SELECT COUNT(DISTINCT ORDER_ID)  AS [TOTAL ORDERS]
+FROM SUPERSTORES
+
+
+SELECT CATEGORY, SUM (PROFIT) AS TOTAL_PROFIT
+ FROM SUPERSTORES
+ GROUP BY CATEGORY
+ ORDER BY TOTAL_PROFIT DESC;
+```
+
+
