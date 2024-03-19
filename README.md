@@ -26,10 +26,24 @@ EDA involved exploring the sales data to answer key questions, such as;
 - The highest and lowest sales
 - The number of orders
 - Total sales for the Technology category
+  
+  ![Dashboard](Superstores Dashboard (Excel).png)
+  
+<img width="950" alt="Superstores Dashboard (Excel)" src="https://github.com/Abbythedataanalyst/SUPERSTORE-DASHBOARD/assets/158297673/e3f39eba-ce06-4395-b943-0411f2bb0a54">
 
 
+### Expository Data Analysis(EDA)- Power Bi
+EDA involved exploring the sales data to answer key questions, such as;
 
-### Expository Data Analysis(EDA)- SQL
+- Total sales and profit by Category and Segment
+- Sales trended over time  
+- Top 5 most profitable products
+  
+  ![Dashboard](Superstores Dashboard(Power BI).png)
+  
+<img width="592" alt="Superstores Dashboard(Power BI)" src="https://github.com/Abbythedataanalyst/SUPERSTORE-DASHBOARD/assets/158297673/f79eb8a6-23f0-4e9f-9a1d-f9f4e562fd1e">
+
+  ### Expository Data Analysis(EDA)- SQL
 EDA involved exploring the sales data to answer key questions, such as;
 - total count of orders.
 -  total profit by Category ordered from highest to lowest profit.
@@ -46,5 +60,8 @@ SELECT CATEGORY, SUM (PROFIT) AS TOTAL_PROFIT
  GROUP BY CATEGORY
  ORDER BY TOTAL_PROFIT DESC;
 ```
+### Reviews/Findings
+### Recommendation
+### Limitations
 
 
